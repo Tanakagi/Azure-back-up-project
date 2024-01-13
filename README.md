@@ -14,8 +14,10 @@ I first went to the marketplace and searched for backup and site recovery: <br/>
 <img src="https://i.imgur.com/7YQtNve.png" height="80%" width="80%" />
 <br />
 <br />
+<br />
 and started the creation of my Recovery Services vault named rsavault and made sure it was in the same region as the storage account and fileshare that I would use for this project:  <br/>
 <img src="https://i.imgur.com/JUdaJHj.png" height="80%" width="80%" />
+<br />
 <br />
 <br />
  Once rsavault was created I went to it and started configuring the backup. I then selected locally redundant replication method for the backup since the data on the file share could be easily reconstructed and my goal was to minimize costs:  <br/>
